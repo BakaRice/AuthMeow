@@ -1,3 +1,5 @@
+package com.ricemarch.authmoew;
+
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 

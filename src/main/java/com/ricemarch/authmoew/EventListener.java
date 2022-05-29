@@ -1,3 +1,5 @@
+package com.ricemarch.authmoew;
+
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

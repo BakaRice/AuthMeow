@@ -1,15 +1,15 @@
+package com.ricemarch.authmoew;
+
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import javax.annotation.ParametersAreNonnullByDefault;
 
-import static constant.LoginConst.*;
+import static com.ricemarch.authmoew.constant.LoginConst.*;
 
 public class CommandHandler implements CommandExecutor {
     @Override
-    @ParametersAreNonnullByDefault
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (!(sender instanceof Player)) {
             return false;

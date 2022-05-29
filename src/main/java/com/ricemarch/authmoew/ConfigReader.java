@@ -1,3 +1,5 @@
+package com.ricemarch.authmoew;
+
 import org.bukkit.configuration.file.FileConfiguration;
 
 public final class ConfigReader {

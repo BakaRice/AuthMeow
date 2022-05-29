@@ -1,4 +1,4 @@
-package constant;
+package com.ricemarch.authmoew.constant;
 
 import org.bukkit.ChatColor;
 

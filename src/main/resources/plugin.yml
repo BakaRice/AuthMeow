@@ -1,12 +1,17 @@
-main: com.ricemarch.AuthMeow
+main: com.ricemarch.authmoew.AuthMeow
 version: 0.1
 api-version: 1.16
-name: AuthMeow
+name: com.ricemarch.authmoew.AuthMeow
 commands:
   login:
     aliases:
       - "lg"
       - "l"
       - "L"
-    description: "Login or register"
+    description: "Login"
     usage: "/login <PASSWORD>"
+  register:
+    aliases:
+      - "reg"
+    description: "register"
+    usage: "/register <PASSWORD> <PASSWORD>"
